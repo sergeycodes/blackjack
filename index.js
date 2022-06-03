@@ -72,7 +72,7 @@ function newCard() {
         let anotherCard = getRandomCard()
         sum += anotherCard
         cards.push(anotherCard)
-
+ 
         renderGame()
     }
 }
@@ -91,3 +91,12 @@ function getRandomCard() {
     }
 }
 
+//ends the game with the sum that user has
+function endGame() {
+    if(isAlive && !hasBlackJack){
+        isGameStarted = false
+        isAlive = false
+        cardsEl.textContent = "";
+        sumEl.textContent = "You drew " + sum;
+    }
+} 

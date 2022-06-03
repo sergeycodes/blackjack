@@ -38,9 +38,10 @@ body {
         
         text-align: center;
         color: #fff;
+        
    }
    
-   button {
+   .btn {
        font-size: 1.5rem;
        font-weight: bold;
        color:#016f32;
@@ -52,6 +53,25 @@ body {
        border-radius: 2px;
        text-transform: uppercase;
        margin: 5px
+   }
+
+   .ace {
+       display: none;
+       font-size: 1.5rem;
+       font-weight: 200;
+       color:#016f32;
+       width: 95px;
+       background: goldenrod;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       border: none;
+       border-radius: 2px;
+       text-transform: uppercase;
+       margin: 5px;
+   }
+
+   .break {
+       display: none;
    }
    
    br {

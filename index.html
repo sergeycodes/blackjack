@@ -17,9 +17,13 @@
     <h2 id="cards-el"></h2>
     <h2 id="sum-el"></h2>
 
-    <button onclick="startGame()">Start Game</button>
+    <button onclick="startGame()" id="start-btn" class="btn">Start Game</button>
     <br>
-    <button onclick="newCard()" id="new-card">New Card</button>
+    <button onclick="onePoint()" class="ace"></button><button onclick="elevenPoints()" class="ace"></button>
+    <br class="break">
+    <button onclick="newCard()" id="new-card" class="btn">New Card</button>
+    <br>
+    <button onclick="endGame()" id="endgame" class="btn">End Game</button>
 
     <!--<h2 id="player-el"></h2>-->
     <script src="index.js"></script>
